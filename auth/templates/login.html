@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+            <p>Hello, {{ name }}! You're logged in! </p>
+            <a class="button" href="{{ url_for('signin.logout') }}">Logout</a>
+{% endblock %}

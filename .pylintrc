@@ -1,0 +1,9 @@
+[BASIC]
+good-names = secret-key
+
+[MESSAGE CONTROL]
+disable = import-error,
+    fixme,
+    bad-option-value,
+    old-style-class,
+    too-few-public-methods

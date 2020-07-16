@@ -1,0 +1,21 @@
+<div>
+    <h3>{{ name }},</h3>
+    <div>
+        Someone has asked to reset the password for your account.
+        <br>
+        If you did not request a password reset, you can disregard this email.
+        <br>
+        No changes have been made to your account.
+        <br>
+        <br>
+        To reset your password, follow this link (or paste into your browser) within the next 90 minutes:
+        <br>
+    </div>
+    <a href="{{ reset_url }}">{{ reset_url }}</a>
+    <div>
+        <br>
+        Thank you,
+        <br>
+        Team Memo
+    </div>
+</div>
